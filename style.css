@@ -176,6 +176,23 @@ section {
   transition: 0.3s;
   margin-top: 5px;
 }
+.resume-buttons{
+  display:flex;
+  gap:15px;
+  margin-top:10px;
+  flex-wrap:wrap;
+}
+
+.secondary-btn{
+  background:transparent;
+  border:2px solid var(--main-color);
+  color:var(--main-color);
+}
+
+.secondary-btn:hover{
+  background:var(--main-color);
+  color:white;
+}
 
 .btn:hover {
   transform: scale(1.05);
